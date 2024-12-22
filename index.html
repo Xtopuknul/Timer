@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="textik">Введите время отсчета</p>
+    <div class="Timer">
+        <div id="inputs">
+            <input id="minutes" type="number" placeholder="Минуты">
+            <input id="seconds" type="number" placeholder="Секунды">
+        </div>
+        <div class="buttons">
+            <button id="reset">reset</button>
+            <button id="start">start</button>
+        </div>
+    </div>
+        <p id="timer"></p>
+        <p id="error-message" style="color: red; visibility: hidden;">Введите число!</p>
+
+        <img id="gif" src="mp4/2a9n.gif" alt="GIF" style="display: none;">
+        <audio id="boom" src="mp3/vzryiv-s-ognennyim-plamenem.mp3"></audio>
+        <audio id="beep-sound" src="mp3/beep-28.mp3"></audio>
+        <audio id="defuse-sound" src="mp3/beep-30b.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
