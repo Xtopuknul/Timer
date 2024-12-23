@@ -81,8 +81,75 @@ button {
     display: none;       /* Изначально скрыто */
     width: 100%;
     height: 100%;
-    animation: playGifOnce 1s forwards;
+    animation: playGifOnce 0.8s forwards;
 }
+
+
+
+@media (max-width: 720px) {
+    body{
+        width: 100%;
+    }
+    
+    #textik {
+        text-align: center;
+        font-size: 3.4em;
+    }
+
+    #inputs {
+        width: 400px;
+    }
+
+    input {
+        width: 200px;
+        height: 40px;
+        font-size: 2em;
+    }
+    .buttons {
+        margin-top: 20px;
+        width: 250px;
+        height: 30px;
+    }
+
+}
+
+
+
+@media(max-width:480px) {
+    #textik {
+    
+        font-size: 50px;
+    }
+    #inputs {
+        margin-top: -20px;
+        width: 300px;
+    }
+    input {
+        width: 150px;
+        height: 40px;
+        font-size: 1.4em;
+    }
+    .buttons {
+        width: 200px;
+        height: 35px;
+    }
+    #timer {
+        margin-top: 1.6em;
+        font-size: 5.5em;
+    }
+
+    .Timer {
+        margin-top: 100px;
+    }
+    #gif {
+        top: 75%;
+        left: 50%;
+        height: 50%;
+    }
+}
+
+
+
 
 @keyframes playGifOnce {
     0% {
